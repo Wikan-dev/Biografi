@@ -68,5 +68,20 @@
         </div>
     </div>
 
+    
+    <script>
+        const button = document.getElementById('enter');
+        const linkContainer = document.getElementById('container');
+
+        button.addEventListener('click', () => {
+        // Toggle the visibility of the link
+        if (linkContainer.style.display === 'none') {
+            linkContainer.style.display = 'block';
+        } else {
+            linkContainer.style.display = 'none';
+        }
+        });
+    </script>
+
 </body>
 </html>
